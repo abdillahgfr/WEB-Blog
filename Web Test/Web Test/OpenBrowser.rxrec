@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="7768812b-15f7-4c8a-99fb-caff836f99a5"
+mode="Desktop">
+  <codegen classname="OpenBrowser" namespace="Web_Test"/>
+  <name>
+    OpenBrowser
+  </name>
+  <recorditems>
+    <openwebsiterecorditem
+        args=""
+        browser="chrome"
+        clearcache="False"
+        clearcookies="False"
+        enabled="True"
+        incognito="False"
+        instrument="True"
+        killexisting="False"
+        maximized="False"
+        optional="False">
+      <comment>
+      </comment>
+      <bindings>
+      </bindings>
+      <url>
+        http://localhost/ebusiness/index.html
+      </url>
+    </openwebsiterecorditem>
+  </recorditems>
+  <repository name="Web TestRepository" relativepath="Web TestRepository.rxrep">
+  </repository>
+</recordtable>

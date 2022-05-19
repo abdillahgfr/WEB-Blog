@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+id="52cf7f82-6630-4827-910d-bc35c3d5ecda"
+mode="Desktop">
+  <codegen classname="CloseBrowser" namespace="Web_Test"/>
+  <name>
+      CloseBrowser
+  </name>
+  <recorditems>
+      <closeapprecorditem
+          enabled="True"
+          graceperiod="0ms"
+          method="CloseWindow"
+          optional="False">
+          <comment>
+          </comment>
+          <bindings>
+          </bindings>
+          <info id="49b5eba8-5b15-4810-8dfa-76576d1d2889"
+                sourcename="RepositoryEditor">
+              <path>
+                  /form[@processname='chrome']
+              </path>
+          </info>
+      </closeapprecorditem>
+  </recorditems>
+  <repository name="Web TestRepository" relativepath="Web TestRepository.rxrep">
+  </repository>
+</recordtable>
